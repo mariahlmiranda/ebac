@@ -1,0 +1,66 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    margin: 50px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    background-color: rgb(236, 238, 243);
+}
+
+.feito {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+header{
+padding: 16px 0;
+color:rgb(54, 54, 54);
+display:flex;
+}
+
+button{
+    cursor: pointer;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input{
+    width: 600px;
+}
+
+button:hover{
+background-color: rgb(106, 134, 211);
+}
+
+
+button{
+    background-color: rgb(69, 89, 143);
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, opacity 0.4s ease; 
+    opacity: 3; 
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px 0;
+    border-bottom: 1px solid #8f8f8f;
+    width: 750px;
+    margin: auto 0;
+}
