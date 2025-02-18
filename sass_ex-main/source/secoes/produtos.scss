@@ -1,0 +1,32 @@
+@use '../config/variaveis';
+
+body {
+    background-color: variaveis.$corPrincipal;
+}
+
+header {
+    background-color: variaveis.$corSecundaria;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.menu li a {
+    color: variaveis.$corLi;
+    text-decoration: none;
+}
+
+.product-button {
+    display: block;
+    background-color: variaveis.$corBotao;
+    color: variaveis.$corLi;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: variaveis.$corHover;
+    }
+}
