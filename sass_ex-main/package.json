@@ -1,0 +1,15 @@
+{
+  "name": "sassex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass secoes/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  }
+}
