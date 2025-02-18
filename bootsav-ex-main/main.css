@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(130, 166, 207);
+    background-image: url(./imgs/Untitled-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-body{
+    background-color: rgb(227, 241, 255);
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+}
+
+header{
+    padding: 50px;
+    margin: 40px auto; /* Espaçamento externo */
+    text-align: center; /* Alinha o texto do cabeçalho */
+}
+
+header h1 {
+    margin: 0; /* Reseta margens internas para evitar sobreposição */
+    font-size: 3rem;
+    margin-right: 50px;
+    font-family: "Doto", serif;
+    color: rgb(72, 105, 143);
+    font-weight: 800;
+ 
+}
+
+
+.carousel-item{
+    margin-top:40px;
+}
+
+
+
+.card{
+    margin-bottom: 50px;
+}
+
+header h1{
+display:flex;
+}
+
+@media (max-width: 768px) {
+    header h1{
+        font-size: 2rem;
+    }
+}
+
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#clap-animation {
+    display: none;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999; 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
